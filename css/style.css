@@ -1,0 +1,39 @@
+body,html{
+    padding:0;
+    margin:0;
+}
+
+
+.yellow,
+.yellow-add.yellow-add-active{
+    background-color:#FDEC00;
+}
+
+.red,
+.red-add.red-add-active{
+    background-color:#F84A3F;
+}
+
+.blue,
+.blue-add.blue-add-active{
+    background-color:#4A88F5;
+}
+
+.mate,
+.mate-add.mate-add-active{
+    background-image:url("/images/mate.jpg");
+}
+
+.header{
+    width:100%;
+    height:auto;
+    float:left;
+    /*background-image:url("/images/sax_guy.gif");
+    background-size:60px;*/
+    text-align:center;
+}
+button{
+    font-size:1.5em;
+    margin:20px;
+}
+
