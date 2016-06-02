@@ -21,7 +21,8 @@ body,html{
 
 .mate,
 .mate-add.mate-add-active{
-    background-image:url("/images/mate.jpg");
+    /*background-image:url("/images/mate.jpg");*/
+    background-color:#0EEF0F;
 }
 
 .header{
