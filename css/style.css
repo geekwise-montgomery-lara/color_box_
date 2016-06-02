@@ -19,8 +19,8 @@ body,html{
     background-color:#4A88F5;
 }
 
-.mate,
-.mate-add.mate-add-active{
+.green,
+.green-add.green-add-active{
     /*background-image:url("/images/mate.jpg");*/
     background-color:#0EEF0F;
 }

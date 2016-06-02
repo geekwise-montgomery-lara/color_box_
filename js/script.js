@@ -12,7 +12,7 @@ app.controller('MainCtrl', function($scope) {
     var colorRed = ['red']
     var colorBlue = ['blue']
     var colorYellow = ['yellow']
-    var johnCena = ['mate']
+    var colorGreen = ['green']
 
 
 
@@ -21,7 +21,7 @@ app.controller('MainCtrl', function($scope) {
         if (colorNumber < colorRed.length)
         {
             $scope.colorEmpty = colorRed[colorNumber];            
-        } else {
+        } else{
             colorNumber = 0;
             $scope.colorEmpty = colorRed[colorNumber];
         }
@@ -33,7 +33,7 @@ app.controller('MainCtrl', function($scope) {
         if (colorNumber < colorBlue.length)
         {
             $scope.colorEmpty = colorBlue[colorNumber];            
-        } else {
+        } else{
             colorNumber = 0;
             $scope.colorEmpty = colorBlue[colorNumber];
         }
@@ -45,7 +45,7 @@ app.controller('MainCtrl', function($scope) {
         if (colorNumber < colorYellow.length)
         {
             $scope.colorEmpty = colorYellow[colorNumber];            
-        } else {
+        } else{
             colorNumber = 0;
             $scope.colorEmpty = colorYellow[colorNumber];
         }
@@ -54,12 +54,12 @@ app.controller('MainCtrl', function($scope) {
     
      $scope.color4 = function() {
         colorNumber ++;         
-        if (colorNumber < johnCena.length)
+        if (colorNumber < colorGreen.length)
         {
-            $scope.colorEmpty = johnCena[colorNumber];            
-        } else {
+            $scope.colorEmpty = colorGreen[colorNumber];            
+        } else{
             colorNumber = 0;
-            $scope.colorEmpty = johnCena[colorNumber];
+            $scope.colorEmpty = colorGreen[colorNumber];
         }
     }
 })
