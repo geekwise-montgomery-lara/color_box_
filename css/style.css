@@ -2,6 +2,9 @@ body,html{
     padding:0;
     margin:0;
 }
+body{
+    background-color:cornsilk;
+}
 
 
 .yellow,
@@ -24,6 +27,10 @@ body,html{
     /*background-image:url("/images/mate.jpg");*/
     background-color:#0EEF0F;
 }
+.cornsilk,
+.cornsilk-add.cornsilk-add-active{
+    background-color:cornsilk;
+}
 
 .header{
     width:100%;
@@ -33,6 +40,11 @@ body,html{
     background-size:60px;*/
     text-align:center;
 }
+
+.erase{
+    float:left;
+}
+
 button{
     font-size:1.5em;
     margin:20px;

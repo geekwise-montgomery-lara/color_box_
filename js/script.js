@@ -13,7 +13,7 @@ app.controller('MainCtrl', function($scope) {
     var colorBlue = ['blue']
     var colorYellow = ['yellow']
     var colorGreen = ['green']
-
+    var colorCornsilk = ['cornsilk']
 
 
     $scope.color1 = function() {
@@ -60,6 +60,16 @@ app.controller('MainCtrl', function($scope) {
         } else{
             colorNumber = 0;
             $scope.colorEmpty = colorGreen[colorNumber];
+        }
+    }
+    $scope.color5 = function() {
+        colorNumber ++;         
+        if (colorNumber < colorCornsilk.length)
+        {
+            $scope.colorEmpty = colorCornsilk[colorNumber];            
+        } else{
+            colorNumber = 0;
+            $scope.colorEmpty = colorCornsilk[colorNumber];
         }
     }
 })
